@@ -22,3 +22,22 @@ The variable `$optind` is initialized to 1. The `$optind` variable may be set to
 The variable `$opterr` is intialized to true, and can be disabled to surpress error messages. *see RETURN VALUES*
 
 ### RETURN VALUES
+
+The **getoptc()** function returns the next kown option character in `$optstring`. If **getopt()** encounters a character not found in `$optstring` or if it detects a missing option argument, it returns `?` (question mark). If `$optstring` has a leading `:` then a missing optin argument causes `:` to be returned instead of `?`. In euther case, the variable `$optarg` is set to the character that caused the error. In both cases **getoptc()** will print appropriate error messages to `STDIN` if not specified itherwise by setting `$opterr` to `false`. The **getoptc()** function returns `false` when the argument list is exhausted. `$optind` will contain the index of the first non-option argument. Every subsequent call to **getoptc()** will return `false` and leave `$optind` and `$optarg` untouched.
+
+
+### EXAMPLES
+
+```php
+while(($c =  getoptc($argv,'ab:c::', $optind, $optarg)) !== false)
+  switch( $c ) {
+  case 'a': $flag_a=true; break;
+  case 'b': $arg_b=$optarg; break;
+  case 'c': $flag_c=true; $arg_c=$optarg; break;
+  case '?': 
+  case ':': usage(); exit(1);
+  }
+  
+for($i = $optind; $i < count($argv); $i++)
+   print "programm argument ". $argv[$i] . PHP_EOL;
+````
