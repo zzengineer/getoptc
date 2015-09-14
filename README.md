@@ -35,7 +35,8 @@ while(($c =  getoptc($argv,'ab:c::', $optind, $optarg)) !== false)
   case 'b': $arg_b=$optarg; break;
   case 'c': $flag_c=true; $arg_c=$optarg; break;
   case '?': 
-  case ':': usage(); exit(1);
+  case ':': 
+  default : usage(); exit(1);
   }
   
 for($i = $optind; $i < count($argv); $i++)
