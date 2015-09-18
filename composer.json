@@ -1,0 +1,20 @@
+{
+    "name": "zzengineer/getoptc",
+    "description": "C style getopt for php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "contact@zzengineer.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+
+    "autoload": {
+        "files": ["src/getoptc"]
+    }
+}
