@@ -3,13 +3,13 @@
     "description": "C style getopt for php",
     "type": "library",
     "license": "MIT",
+    "keywords": ["getopt"],
     "authors": [
         {
             "name": "John Doe",
             "email": "contact@zzengineer.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.3.0"
     },
