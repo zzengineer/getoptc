@@ -1,3 +1,12 @@
+/*
+ * author    zzengineer <contact@zzengineer.com>
+ * date      2015-09-18
+ * github    https://github.com/zzengineer/getoptc
+ * licencse  MIT http://opensource.org/licenses/MIT
+ * version   0.1.0
+ *
+ * getoptc.php -- c like getopt for php
+ */
 <?php
 
 function getoptc($args, $optstring, &$optind, &$optarg, $opterr = true) {
