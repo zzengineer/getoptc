@@ -42,7 +42,7 @@ while (($c =  getoptc($argv,'ab:c::', $optind, $optarg)) !== false)
   
 for ($i = $optind; $i < count($argv); $i++)
    print "programm argument ". $argv[$i]. PHP_EOL;
-````
+```
 ### DIAGNOSTICS
 
 If the **getoptc()** function encounters a character not found in the string `$optstring` or detects a missing option argument it writes an error messages to `STDERR`. Setting `$opterr` to `false` will disable these error messages.
