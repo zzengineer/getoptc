@@ -15,6 +15,6 @@
     },
 
     "autoload": {
-        "files": ["src/getoptc"]
+        "files": ["src/getoptc.php"]
     }
 }
