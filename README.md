@@ -1,10 +1,7 @@
 # getoptc
 c like getopt for php
 
-[![Latest Stable Version](https://poser.pugx.org/zzengineer/getoptc/v/stable)](https://packagist.org/packages/zzengineer/getoptc) 
-[![Total Downloads](https://poser.pugx.org/zzengineer/getoptc/downloads)](https://packagist.org/packages/zzengineer/getoptc) 
-[![Latest Unstable Version](https://poser.pugx.org/zzengineer/getoptc/v/unstable)](https://packagist.org/packages/zzengineer/getoptc) 
-[![License](https://poser.pugx.org/zzengineer/getoptc/license)](http://opensource.org/licenses/MIT)
+[![Latest Stable Version](https://poser.pugx.org/zzengineer/getoptc/v/stable)](https://packagist.org/packages/zzengineer/getoptc) [![Total Downloads](https://poser.pugx.org/zzengineer/getoptc/downloads)](https://packagist.org/packages/zzengineer/getoptc) [![Latest Unstable Version](https://poser.pugx.org/zzengineer/getoptc/v/unstable)](https://packagist.org/packages/zzengineer/getoptc) [![License](https://poser.pugx.org/zzengineer/getoptc/license)](http://opensource.org/licenses/MIT)
 ---
 ### NAME
 getoptc -- get option character from command line argument list
