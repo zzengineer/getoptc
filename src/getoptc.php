@@ -7,7 +7,7 @@
  * licencse  MIT http://opensource.org/licenses/MIT
  * version   0.3
  *
- * getoptc.php -- c like getopt for php
+ * getoptc.php -- C style getopt for php
  */
  
 function getoptc($args, $optstring, &$optind, &$optarg, $opterr = true) {
