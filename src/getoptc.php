@@ -5,7 +5,7 @@
  * date      2015-09-18
  * github    https://github.com/zzengineer/getoptc
  * licencse  MIT http://opensource.org/licenses/MIT
- * version   0.2
+ * version   0.3
  *
  * getoptc.php -- c like getopt for php
  */
